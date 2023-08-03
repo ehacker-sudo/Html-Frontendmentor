@@ -1,0 +1,89 @@
+.bg-36384E {
+    background-color: #36384E;
+}
+
+.w-100px {
+    width: 100px;
+}
+
+.h-100px {
+    height: 100px;
+}
+
+.fs-55px {
+    font-size: 55px;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.border-30px {
+    border-radius: 30px;
+}
+
+.border-15px {
+    border-radius: 15px;
+}
+
+
+.btn-242742 {
+    color: #ffffff;
+    background-color: #242742;
+}
+
+.btn-242742:hover {
+    color: #ffffff;
+    background-color: #FF6257;
+}
+
+@font-face {
+    font-family: RobotoBold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: RobotoRegular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+.f-roboto-bold {
+    font-family: myFirstFont;
+}
+
+.f-roboto-regular {
+    font-family: myFirstFont;
+}
+
+.form-control:hover {
+    border: 2px solid #000000;
+    color: #000000;
+}
+
+.invalid-input {
+    background-color: rgba(255, 0, 0, 0.2);
+    border: 2px solid rgba(255, 0, 0, 0.5);
+    color: rgba(255, 0, 0, 0.3);
+}
+
+.invalid-input:hover {
+    background-color: rgba(255, 0, 0, 0.2);
+    border: 2px solid rgba(255, 0, 0, 0.5);
+    color: rgba(255, 0, 0, 0.3);
+}
+
+.invalid-input:visited {
+    background-color: rgba(255, 0, 0, 0.2);
+    border: 2px solid rgba(255, 0, 0, 0.5);
+    color: rgba(255, 0, 0, 0.3);
+}
+
+.invalid-input::after {
+    background-color: rgba(255, 0, 0, 0.2);
+    border: 2px solid rgba(255, 0, 0, 0.5);
+    color: rgba(255, 0, 0, 0.3);
+}
