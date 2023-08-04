@@ -8,22 +8,38 @@
 .bg-5D5F79{
     background-color: #5D5F79;
 }
+.bg-F15E50{
+    background-color: #F15E50;
+}
 
 .h-1px{
     height: 1px;
 }
 
+.fw-700{
+    font-weight: 700;
+}
+
 .fs-15px{
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .fs-20px{
     font-size: 20px;
 }
 
-.fs-40px{
-    font-size: 40px;
+.fs-60px{
+    font-size: 60px;
 }
+
+.fs-74px{
+    font-size: 74px;
+}
+
+.fs-65px{
+    font-size: 65px;
+}
+
 .text-5D5F79{
     color: #5D5F79;
 }
@@ -36,3 +52,10 @@
     color: #E9AB53;
 }
 
+.line-height-0-9 {
+    line-height: 0.9;
+}
+
+.letter-spacing-1{
+    letter-spacing: 4px;
+}
