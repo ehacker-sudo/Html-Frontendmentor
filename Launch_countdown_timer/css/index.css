@@ -1,0 +1,169 @@
+
+
+:root {
+    /* Layout */
+    --mobile: 375px;
+    --desktop: 1440px;
+    --grayish_blue: hsl(237, 18%, 59%);
+    --soft_red: hsl(345, 95%, 68%);
+    /* Primary */
+    --white: hsl(0, 0%, 100%);
+    --dark_desaturated_blue: hsl(236deg, 21%, 26%);
+    --very_dark_blue: hsl(235, 16%, 14%);
+    --very_dark__mostly_black__blue: hsl(234, 17%, 12%);
+    /* Body Copy */
+    --font_size: 14px;
+    --weights: 700
+}
+
+html,body {
+    height: 100%;
+    color: var(--white);
+    background: url("../images/bg-stars.svg") no-repeat left top, linear-gradient(var(--very_dark_blue), #231d2b);
+}
+
+@font-face {
+    font-family: RedHatText-Italic-VariableFont_wght;
+    src: url(../font/RedHatText-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: RedHatText-VariableFont_wght;
+    src: url(../font/RedHatText-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: RedHatText-Bold;
+    src: url(../font/static/RedHatText-Bold.ttf);
+}
+
+@font-face {
+    font-family: RedHatText-BoldItalic;
+    src: url(../font/static/RedHatText-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: RedHatText-Italic;
+    src: url(../font/static/RedHatText-Italic.ttf);
+}
+
+@font-face {
+    font-family: RedHatText-Light;
+    src: url(../font/static/RedHatText-Light.ttf);
+}
+@font-face {
+    font-family: RedHatText-LightItalic;
+    src: url(../font/static/RedHatText-LightItalic.ttf);
+}
+@font-face {
+    font-family: RedHatText-Medium;
+    src: url(../font/static/RedHatText-Medium.ttf);
+}
+
+@font-face {
+    font-family: RedHatText-MediumItalic;
+    src: url(../font/static/RedHatText-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: RedHatText-Regular;
+    src: url(../font/static/RedHatText-Regular.ttf);
+}
+
+@font-face {
+    font-family: RedHatText-SemiBold;
+    src: url(../font/static/RedHatText-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: RedHatText-SemiBoldItalic;
+    src: url(../font/static/RedHatText-SemiBoldItalic.ttf);
+}
+
+.title-main {
+    font-family: RedHatText-Medium;
+    font-weight: var(--weights);
+    letter-spacing: 10px;
+}
+
+.bg-main {
+
+}
+
+.bg-footer{
+    background-image: url("../images/pattern-hills.svg");
+    background-color: inherit;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.icon-facebook{
+    cursor: pointer;
+}
+
+.icon-pinterest{
+    cursor: pointer;
+}
+
+.icon-instagram{
+    cursor: pointer;
+}
+
+.time-title {
+    font-family: RedHatText-Bold;
+    font-weight: var(--weights);
+    color: var(--grayish_blue);
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+.flip-card {
+    width: 150px;
+    height: 150px;
+}
+
+.flip-minutes,.flip-days,.flip-hours,.flip-seconds {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-seconds {
+    transform: rotateX(180deg);
+}
+
+.flip-item{
+    height: 50%;
+    width: 100%;
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--soft_red);
+}
+
+
+.flip-top {
+    background-color: var(--dark_desaturated_blue);
+    filter: brightness(80%);
+
+}
+
+.flip-bottom {
+    background-color: var(--dark_desaturated_blue);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+}
+
+.flip-card-back {
+    transform: rotateX(180deg);
+}
